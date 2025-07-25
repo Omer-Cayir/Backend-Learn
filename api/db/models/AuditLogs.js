@@ -20,4 +20,4 @@ class AuditLogs extends mongoose.Model {
 }
 
 shema.loadClass(AuditLogs);
-module.exports = mongoose.model('auditLogs', shema);
+module.exports = mongoose.model('auditlogs', shema);
